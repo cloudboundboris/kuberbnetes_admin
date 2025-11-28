@@ -204,6 +204,6 @@ else
     log_success "Scale-down complete!"
     echo ""
     log_info "To restore deployments, run:"
-    echo "    ./restore-deployments.sh -f $INVENTORY_FILE"
+    echo "    ./restore-deploy.sh -f $INVENTORY_FILE"
 fi
 echo "=============================================="
